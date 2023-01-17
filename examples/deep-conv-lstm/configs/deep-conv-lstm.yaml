@@ -1,5 +1,5 @@
 defaults:
-  - dataset: atr-left-wrist
+  - dataset: atr-wrist
   - override hydra/job_logging: custom
   - _self_
 datarootdir: "/content/drive/MyDrive/Colab Notebooks/openpack/data/"
