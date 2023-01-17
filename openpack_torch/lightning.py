@@ -63,7 +63,6 @@ class BaseLightningModule(pl.LightningModule):
         acc = accuracy_score(
             preds_flat.transpose(0, 1),
             t_flat,
-            task="multiclass",
             average="weighted",
             num_classes=num_classes,
             ignore_index=ignore_index,
